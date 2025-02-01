@@ -1,0 +1,12 @@
+/etc/1
+/etc/2
+/etc/3
+/etc/4
+/dev/1
+/dev/2
+/dev/3
+/dev/4
+/opt/1
+/opt/2
+/opt/3
+/opt/4
