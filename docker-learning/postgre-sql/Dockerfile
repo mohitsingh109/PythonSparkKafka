@@ -1,0 +1,8 @@
+FROM postgres:latest
+
+# set env
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin
+ENV POSTGRES_DB=mydb
+
+EXPOSE 5432
