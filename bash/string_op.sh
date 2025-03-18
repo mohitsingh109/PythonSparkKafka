@@ -12,3 +12,22 @@ if [ -n "$username" -a "$username" = "admin" ]; then
 else
   echo "Access denied"
 fi
+
+# Pattern Matching in string
+filename="logfile.txt"
+#Pattern matching syntax [[ pattern condition ]]
+
+# End's with
+if [[ $filename == *.txt ]]; then
+  echo "Text file"
+fi
+
+# Start with
+if [[ $filename == logfile* ]]; then
+  echo "Start with logfile"
+fi
+
+# Contains
+if [[ $filename == *file* ]]; then
+  echo "Contains file"
+fi
