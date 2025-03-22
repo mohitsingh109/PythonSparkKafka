@@ -1,6 +1,6 @@
 ---
 
-## 1️⃣ **User Account Manager with Validation & Logging**
+##  **User Account Manager with Validation & Logging**
 **Task:** Write a script that:
 - Uses a function `validate_username()` to check if a **username**:
   - Contains only **letters and numbers** (regex: `^[a-zA-Z0-9]+$`)
@@ -12,7 +12,41 @@
 
 ---
 
-## 2️⃣ **Backup & Restore System**
+## Check If File Name Ends in ".txt"
+
+## Find Lines That Start with "ERROR"
+
+---
+## Validate Credit Card Number
+Must be 16 digits (Visa, MasterCard, etc.)
+
+Valid Inputs: 1234567890123456
+
+Invalid Inputs: 1234-5678-9012-3456 (Has -)
+
+---
+
+## Validate Vehicle Number Plate 
+
+Format: MH12AB1234 (2 letters, 2 digits, 2 letters, 4 digits)
+
+Valid Inputs: 234567890123, 987654321234
+
+Invalid Inputs: 012345678901 (Starts with 0), 12345 (Too short)
+
+---
+
+## Extract All Currency Amounts from Text
+
+Find prices like $100, ₹2500, €99.99
+
+Valid Matches: $100, ₹2500, €99.99
+
+Invalid Matches: 100 (No currency symbol)
+
+---
+
+##  **Backup & Restore System**
 **Task:** Write a script that:
 - Accepts a **file or directory path** from the user.
 - Validates that the path **exists**.
@@ -22,7 +56,7 @@
 
 ---
 
-## 3️⃣ **Enhanced Password Strength Checker**
+##  **Enhanced Password Strength Checker**
 **Task:** Write a function `validate_password()` that:
 - Ensures the password:
   - Has **at least 8 characters**
@@ -32,7 +66,7 @@
 
 ---
 
-## 4️⃣ **File Content Monitor**
+##  **File Content Monitor**
 **Task:** Write a script that:
 - Monitors a **specified file** for changes.
 - Runs in a **while loop**, checking every **5 seconds**.
@@ -40,7 +74,7 @@
 
 ---
 
-## 5️⃣ **System Health Report**
+##  **System Health Report**
 **Task:** Write a script that:
 - Collects **CPU, memory, and disk usage**.
 - Checks if usage **exceeds 80%**, logs warnings.
@@ -48,7 +82,7 @@
 
 ---
 
-## 6️⃣ **Log File Analyzer**
+##  **Log File Analyzer**
 **Task:** Write a script that:
 - Accepts a **log filename** as input.
 - Uses `grep` to extract **ERROR** and **WARNING** messages.
@@ -56,7 +90,7 @@
 
 ---
 
-## 7️⃣ **Automated Task Scheduler**
+##  **Automated Task Scheduler**
 **Task:** Write a script that:
 - Accepts a **task name and time interval**.
 - Uses a **case statement** to control (start/stop/status) a background process.
@@ -64,7 +98,7 @@
 
 ---
 
-## 8️⃣ **User Input Validator & Data Storage**
+##  **User Input Validator & Data Storage**
 **Task:** Write a script that:
 - Reads **multiple user inputs** (name, age, email).
 - Uses **regex to validate** each input.
@@ -73,7 +107,7 @@
 
 ---
 
-## 9️⃣ **Automated Directory Cleaner**
+## **Automated Directory Cleaner**
 **Task:** Write a script that:
 - Checks a given directory for **files older than 30 days**.
 - Deletes old files and logs the deletion.
@@ -81,7 +115,7 @@
 
 ---
 
-## 🔟 **File Comparison & Merging Tool**
+## **File Comparison & Merging Tool**
 **Task:** Write a script that:
 - Accepts **two filenames** from the user.
 - Compares files line by line.
@@ -89,7 +123,7 @@
 
 ---
 
-## 1️⃣1️⃣ **Interactive Number Game**
+##  **Interactive Number Game**
 **Task:** Write a script that:
 - Generates a **random number** (1-100).
 - Uses a **while loop** to ask the user to guess.
@@ -98,7 +132,7 @@
 
 ---
 
-## 1️⃣2️⃣ **Network Ping Monitor**
+##  **Network Ping Monitor**
 **Task:** Write a script that:
 - Accepts a **website URL**.
 - Pings it every **30 seconds**.
@@ -106,14 +140,14 @@
 
 ---
 
-## 1️⃣3️⃣ **Extract Dates from Text**
+##  **Extract Dates from Text**
 **Task:** Write a script that:
 - Accepts a **user input string**.
 - Uses **regex** to extract dates (`YYYY-MM-DD`).
 
 ---
 
-## 1️⃣4️⃣ **Palindrome Checker with Function**
+## **Palindrome Checker with Function**
 **Task:** Write a function that:
 - Accepts a **string**.
 - Removes spaces & punctuation.
@@ -121,13 +155,13 @@
 
 ---
 
-## 1️⃣5️⃣ **Hex Color Validator**
+##  **Hex Color Validator**
 **Task:** Write a script that:
 - Uses **regex** to check if a given string is a valid **hex color** (`#FF5733`).
 
 ---
 
-## 1️⃣6️⃣ **Automated Log Rotation**
+##  **Automated Log Rotation**
 **Task:** Write a script that:
 - Archives logs **older than 7 days**.
 - Deletes logs **older than 30 days**.
@@ -135,14 +169,14 @@
 ---
 
 
-## 1️⃣9️⃣ **Process Manager**
+##  **Process Manager**
 **Task:** Write a script that:
 - Accepts a **process name**.
 - Checks if it's running, and allows **killing/restarting** it.
 
 ---
 
-## 2️⃣0️⃣ **Disk Space Monitor**
+##  **Disk Space Monitor**
 **Task:** Write a script that:
 - Checks if disk usage **exceeds 80%**.
 - Logs and alerts the user.
