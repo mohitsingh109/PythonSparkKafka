@@ -134,19 +134,6 @@
 
 ---
 
-## 1️⃣7️⃣ **Currency Converter (Using API)**
-**Task:** Write a script that:
-- Accepts an **amount and currency**.
-- Fetches live conversion rates.
-
----
-
-## 1️⃣8️⃣ **File Encryption & Decryption**
-**Task:** Write a script that:
-- Encrypts a file using `openssl`.
-- Provides a **decryption option**.
-
----
 
 ## 1️⃣9️⃣ **Process Manager**
 **Task:** Write a script that:
